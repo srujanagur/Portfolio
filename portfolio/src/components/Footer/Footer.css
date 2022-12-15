@@ -1,0 +1,11 @@
+.footerUl {
+  padding: 1rem;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+.footerSection {
+  background-color: #c1deae;
+}
