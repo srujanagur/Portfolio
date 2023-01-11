@@ -1,6 +1,39 @@
+* {
+  margin: 5px;
+  background-color: lightpink;
+}
+.allsections {
+  display: flex;
+  flex-direction: column;
+}
+.mainpage {
+  display: flex;
+  justify-content: space-between;
+}
+.home2 {
+  padding: 100px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-style: italic;
+}
 .home {
   background-image: url("./portfolio-background.png");
   background-repeat: no-repeat;
   height: 100vh;
   width: 50vw;
+}
+
+.mainnavbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navButtons {
+  color: darkgreen;
+  padding: 3px;
+  text-decoration: none;
+}
+.navButtons:hover {
+  color: blue;
+  background-color: lightpink;
 }
