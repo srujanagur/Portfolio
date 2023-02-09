@@ -35,12 +35,7 @@ export default function Contact() {
       <Container>
         <Row>
           <Col className="section1">
-            <iframe
-              width="100%"
-              height="100%"
-              title="map"
-              src="https://www.google.se/maps/place/Flemingsberg,+Huddinge/@59.2076885,17.8389365,11z/data=!3m1!4b1!4m5!3m4!1s0x465f708e096843e7:0xc5263a5317d60047!8m2!3d59.2198142!4d17.9466915"
-            />
+            <iframe width="100%" height="100%" title="map" src="" />
           </Col>
           <Col className="section2">
             <div>
@@ -83,7 +78,7 @@ export default function Contact() {
                 <textarea
                   id="message"
                   name="message"
-                  size="50"
+                  size="20"
                   onChange={(e) => setMessage(e.target.value)}
                 />
               </div>
