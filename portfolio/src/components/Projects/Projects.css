@@ -9,6 +9,9 @@
   border: solid 1px grey;
   border-radius: 5px;
 }
+h1 {
+  text-align: center;
+}
 a {
   color: darkgreen;
 }

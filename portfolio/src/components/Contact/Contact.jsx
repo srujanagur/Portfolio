@@ -32,10 +32,16 @@ export default function Contact() {
 
   return (
     <section id="contact" className="relative">
+      <h1>Contact</h1>
       <Container>
         <Row>
           <Col className="section1">
-            <iframe width="100%" height="100%" title="map" src="" />
+            <iframe
+              width="100%"
+              height="100%"
+              title="map"
+              src="https://www.google.com/maps/embed/v1/place?q=Flemingsberg,+Huddinge,+Sweden&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+            />
           </Col>
           <Col className="section2">
             <div>
