@@ -1,0 +1,10 @@
+.sections {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.section2 {
+  color: darkgreen;
+  font-size: 1rem;
+  font-style: italic;
+}
