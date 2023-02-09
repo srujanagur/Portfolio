@@ -23,7 +23,7 @@ export default function Footer() {
               <BsMailbox />
             </a>
           </li>
-          <li>Copurights@2021</li>
+          <li>Copyrights@2021</li>
         </ul>
       </div>
     </div>

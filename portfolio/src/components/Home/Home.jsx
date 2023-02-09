@@ -13,24 +13,25 @@ export default function Home() {
         <div className="home"></div>
         <div className="home2">
           <p className="navButtons">
-            jsdhbgghfuyrhghrhuirh
-            <br /> dfhbguygruygruyrhuyhu
-            <br /> djfhguygruyhrgukhgkur
-            <br /> djfbhjudhgurgheruighiuergh
+            Seeking a full stack developer position
+            <br /> where I can use my technical skills,
+            <br />
+            learn new things while accomplishing <br />
+            my organization goals.
             <br />
           </p>
         </div>
       </div>
-      <div>
+      <div className="section">
         <Projects />
       </div>
-      <div>
+      <div className="section">
         <Education />
       </div>
-      <div>
+      <div className="section">
         <Contact />
       </div>
-      <div>
+      <div className="section">
         <Footer />
       </div>
     </div>

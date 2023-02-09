@@ -1,0 +1,17 @@
+.education-header {
+  text-align: center;
+}
+.education-sections {
+  margin-top: 20px;
+  padding: 30px;
+  color: darkgreen;
+  font-style: italic;
+  font-size: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+.each-section {
+  border: solid black 2px;
+  border-radius: 5px;
+}

@@ -1,8 +1,22 @@
 .projects {
+  margin-left: 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  gap: 10px;
 }
 .projectButton {
-  margin: 20px;
+  border: solid 1px grey;
+  border-radius: 5px;
+}
+a {
+  color: darkgreen;
+}
+.eachProject {
+  padding: 2px;
+  text-align: center;
+  color: darkgreen;
+  width: 300px;
+  border: solid black 2px;
+  border-radius: 5px;
 }
