@@ -1,7 +1,3 @@
-.footerSection {
-  margin-top: 30%;
-}
-
 .footerUl {
   padding: 1rem;
   list-style: none;
@@ -9,4 +5,7 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 40px;
+}
+.footermain {
+  background-color: cadetblue;
 }

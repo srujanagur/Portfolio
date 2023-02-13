@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../Footer/Footer";
 
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -46,17 +47,19 @@ export default function Contact() {
           <Col className="section2">
             <div>
               <h2>Address</h2>
-              <p className="mt-1">
-                stockholm <br />
-                Sweden
-              </p>
+              <p className="mt-1">stockholm , Sweden</p>
             </div>
             <div>
               <h2>Email</h2>
               <a href>srujana.muskula@gmail.com</a>
             </div>
 
-            <form netlify name="contact" onSubmit={handleSubmit}>
+            <form
+              netlify
+              name="contact"
+              onSubmit={handleSubmit}
+              className="form-section"
+            >
               <h2>Hire Me</h2>
 
               <div>
@@ -65,7 +68,7 @@ export default function Contact() {
                   type="text"
                   id="name"
                   name="name"
-                  size="50"
+                  size="30"
                   onChange={(e) => setName(e.target.value)}
                 />
               </div>
@@ -75,7 +78,7 @@ export default function Contact() {
                   type="email"
                   id="email"
                   name="email"
-                  size="50"
+                  size="30"
                   onChange={(e) => setEmail(e.target.value)}
                 />
               </div>
@@ -93,6 +96,9 @@ export default function Contact() {
           </Col>
         </Row>
       </Container>
+      <div className="footer-section">
+        <Footer />
+      </div>
     </section>
   );
 }

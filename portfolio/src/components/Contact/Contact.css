@@ -3,6 +3,13 @@
   flex-wrap: wrap;
   flex-direction: row;
 }
+.form-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
 .section2 {
   color: darkgreen;
   font-size: 1rem;
@@ -10,4 +17,7 @@
 }
 h1 {
   text-align: center;
+}
+.relative {
+  background-color: cadetblue;
 }

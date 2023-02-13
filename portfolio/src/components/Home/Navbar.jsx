@@ -4,6 +4,8 @@ import Navbar from "react-bootstrap/Navbar";
 import { Container } from "react-bootstrap";
 import { Nav } from "react-bootstrap";
 
+import "./Home.css";
+
 export default function NavBar() {
   return (
     <div className="mainnavbar">
@@ -32,11 +34,6 @@ export default function NavBar() {
             <Nav.Link>
               <Link className="navButtons" to={"/contact"}>
                 Contact
-              </Link>
-            </Nav.Link>
-            <Nav.Link>
-              <Link className="navButtons" to={"/footer"}>
-                Footer
               </Link>
             </Nav.Link>
           </Nav>

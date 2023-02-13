@@ -1,16 +1,13 @@
-* {
-  margin: 5px;
-  background-color: lightpink;
-}
 .allsections {
   display: flex;
   flex-direction: column;
 }
-.section {
-  width: 80vw;
-  height: 100vh;
+
+.mainnavbar {
+  background-color: lightpink;
 }
 .mainpage {
+  background-color: lightpink;
   display: flex;
   justify-content: space-between;
 }
@@ -40,4 +37,20 @@
 .navButtons:hover {
   color: blue;
   background-color: lightpink;
+}
+.project-section {
+  width: 100vw;
+  height: 100vh;
+  background-color: cadetblue;
+}
+.education-section {
+  width: 100vw;
+  height: 100vh;
+  background-color: lightpink;
+  /*background-image: url("../../../public/assets/location-image.png");*/
+}
+.contact-section {
+  width: 100vw;
+  height: 100vh;
+  background-color: cadetblue;
 }

@@ -3,7 +3,7 @@ import React from "react";
 import "./Education.css";
 export default function Education() {
   return (
-    <div>
+    <div className="educationmain">
       <div className="education-header">
         <h1>Education & Skills</h1>
       </div>

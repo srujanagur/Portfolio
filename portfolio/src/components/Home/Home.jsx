@@ -1,7 +1,7 @@
 import React from "react";
 import Contact from "../Contact/Contact";
 import Education from "../Education/Education";
-import Footer from "../Footer/Footer";
+
 import Projects from "../Projects/Projects";
 
 import "./Home.css";
@@ -22,17 +22,14 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <div className="section">
+      <div className="project-section">
         <Projects />
       </div>
-      <div className="section">
+      <div className="education-section">
         <Education />
       </div>
-      <div className="section">
+      <div className="contact-section">
         <Contact />
-      </div>
-      <div className="section">
-        <Footer />
       </div>
     </div>
   );
