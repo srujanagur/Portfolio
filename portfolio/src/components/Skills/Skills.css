@@ -5,6 +5,10 @@
   gap: 30px;
 }
 .skills {
-  height: 70vh;
+  padding: 70px;
+  height: 100vh;
   background-color: var(--primary-bg);
+}
+h1 {
+  padding: 30px;
 }

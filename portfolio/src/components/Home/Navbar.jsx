@@ -37,7 +37,7 @@ export default function NavBar() {
               </Link>
             </Nav.Link>
             <Nav.Link>
-              <Link className="navButtons" to={"/contact"}>
+              <Link className="navButtons" to={"/footer"}>
                 Contact
               </Link>
             </Nav.Link>

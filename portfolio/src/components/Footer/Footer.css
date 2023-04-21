@@ -1,11 +1,17 @@
 .footerUl {
-  padding: 1rem;
+  padding: 100px;
   list-style: none;
   display: flex;
   flex-wrap: wrap;
+  text-align: center;
   justify-content: center;
   gap: 40px;
 }
-/* .footermain {
-  background-color: cadetblue;
-} */
+.footermain {
+  height: 100vh;
+  background-color: var(--primary-bg);
+}
+.footerMail {
+  padding: 20px;
+  text-align: center;
+}

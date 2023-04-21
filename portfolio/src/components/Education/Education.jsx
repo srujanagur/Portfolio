@@ -5,7 +5,7 @@ export default function Education() {
   return (
     <div className="educationmain">
       <div className="education-header">
-        <h1>Education & Skills</h1>
+        <h1>Education</h1>
       </div>
       <div className="education-sections">
         <div className="each-section">

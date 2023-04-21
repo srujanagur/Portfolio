@@ -6,6 +6,7 @@ import Projects from "../Projects/Projects";
 
 import "./Home.css";
 import Skills from "../Skills/Skills";
+import Footer from "../Footer/Footer";
 
 export default function Home() {
   return (
@@ -14,11 +15,11 @@ export default function Home() {
         <div className="home"></div>
         <div className="home2">
           <p className="navButtons">
-            Seeking a full stack developer position
-            <br /> where I can use my technical skills,
-            <br />
-            learn new things while accomplishing <br />
-            my organization goals.
+            Driven and motivated junior fullstack <br />
+            and frontend developer seeking to <br />
+            leverage my skills and knowledge <br />
+            to contribute to a dynamic team in <br />a challenging and rewarding
+            work environment.
             <br />
           </p>
         </div>
@@ -33,7 +34,7 @@ export default function Home() {
         <Skills />
       </div>
       <div className="contact-section">
-        <Contact />
+        <Footer />
       </div>
     </div>
   );

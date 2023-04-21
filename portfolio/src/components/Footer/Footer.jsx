@@ -4,9 +4,16 @@ import { BsGithub, BsLinkedin, BsMailbox } from "react-icons/bs";
 import "./Footer.css";
 
 export default function Footer() {
+  const email = "gurrala.srujana@outlook.com";
   return (
     <div className="footermain">
       <div className="footerSection">
+        <div className="footerMail">
+          <h2>Contact Me</h2>
+          <p>Send me an email at:</p>
+          <a href={`mailto:${email}`}>{email}</a>
+        </div>
+
         <ul className="footerUl">
           <li>
             <a href="https://github.com/srujanagur">
