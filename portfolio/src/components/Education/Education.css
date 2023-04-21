@@ -1,6 +1,6 @@
 .educationmain {
-  height: 100vh;
-  background-color: lightpink;
+  height: 70vh;
+  background-color: var(--primary-bg);
 }
 
 .education-header {
@@ -9,7 +9,6 @@
 .education-sections {
   padding-top: 5%;
 
-  color: darkgreen;
   font-style: italic;
   font-size: 1rem;
   display: flex;

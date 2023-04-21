@@ -1,0 +1,10 @@
+.list {
+  list-style: none;
+  display: flex;
+
+  gap: 30px;
+}
+.skills {
+  height: 70vh;
+  background-color: var(--primary-bg);
+}

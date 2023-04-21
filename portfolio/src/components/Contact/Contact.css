@@ -11,7 +11,6 @@
 }
 
 .section2 {
-  color: darkgreen;
   font-size: 1rem;
   font-style: italic;
 }
@@ -19,5 +18,5 @@ h1 {
   text-align: center;
 }
 .relative {
-  background-color: cadetblue;
+  background-color: var(--primary-bg);
 }

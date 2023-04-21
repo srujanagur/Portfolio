@@ -1,5 +1,8 @@
 .projectmain {
-  background-color: cadetblue;
+  background-color: var(--primary-bg);
+}
+a {
+  color: var(--primary-link);
 }
 
 .projects {
@@ -10,7 +13,7 @@
   gap: 50px;
 }
 .projectButton {
-  background-color: cadetblue;
+  background-color: var(--primary-bg);
   border: solid 1px grey;
   border-radius: 5px;
   margin: 2px;
@@ -19,13 +22,13 @@ h1 {
   text-align: center;
 }
 a {
-  color: darkgreen;
+  color: var(--primary-text);
 }
 .eachProject {
   padding: 2px;
   text-align: center;
-  color: darkgreen;
+  color: var(--primary-text);
   width: 300px;
-  border: solid black 2px;
+  border: solid grey 2px;
   border-radius: 5px;
 }

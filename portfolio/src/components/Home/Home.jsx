@@ -5,6 +5,7 @@ import Education from "../Education/Education";
 import Projects from "../Projects/Projects";
 
 import "./Home.css";
+import Skills from "../Skills/Skills";
 
 export default function Home() {
   return (
@@ -27,6 +28,9 @@ export default function Home() {
       </div>
       <div className="education-section">
         <Education />
+      </div>
+      <div className="skills-section">
+        <Skills />
       </div>
       <div className="contact-section">
         <Contact />

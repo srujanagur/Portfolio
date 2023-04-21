@@ -1,13 +1,15 @@
 .allsections {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
+
+  background-color: var(--primary-bg);
 }
 
-.mainnavbar {
+/* .mainnavbar {
   background-color: lightpink;
-}
+} */
 .mainpage {
-  background-color: lightpink;
   display: flex;
   justify-content: space-between;
 }
@@ -27,30 +29,30 @@
 .mainnavbar {
   display: flex;
   justify-content: space-between;
+  background-color: var(--secondary-bg);
 }
 
 .navButtons {
-  color: darkgreen;
+  color: var(--primary-text);
   padding: 3px;
   text-decoration: none;
 }
 .navButtons:hover {
-  color: blue;
-  background-color: lightpink;
+  color: var(--primary-button);
+  /* background-color: lightpink; */
 }
-.project-section {
+/* .project-section {
   width: 100vw;
   height: 100vh;
-  background-color: cadetblue;
-}
-.education-section {
+  
+} */
+/* .education-section {
   width: 100vw;
   height: 100vh;
-  background-color: lightpink;
-  /*background-image: url("../../../public/assets/location-image.png");*/
+ 
 }
 .contact-section {
   width: 100vw;
   height: 100vh;
-  background-color: cadetblue;
-}
+  
+} */

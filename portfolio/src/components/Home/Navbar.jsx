@@ -32,6 +32,11 @@ export default function NavBar() {
               </Link>
             </Nav.Link>
             <Nav.Link>
+              <Link className="navButtons" to={"/skills"}>
+                Skills
+              </Link>
+            </Nav.Link>
+            <Nav.Link>
               <Link className="navButtons" to={"/contact"}>
                 Contact
               </Link>
