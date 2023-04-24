@@ -26,7 +26,7 @@ export default function Projects() {
             </button>
             <button className="projectButton">
               <a href="https://github.com/srujanagur/recipe_app">
-                project link
+                Project link
               </a>
             </button>
           </div>

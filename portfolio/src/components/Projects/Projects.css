@@ -22,6 +22,7 @@ h1 {
   text-align: center;
 }
 a {
+  text-decoration: none;
   color: var(--primary-text);
 }
 .eachProject {

@@ -12,7 +12,9 @@ export default function Home() {
   return (
     <div className="allsections">
       <div className="mainpage">
-        <div className="home"></div>
+        <div className="home">
+          <img src="./assets/portfolio-background.png" alt=""></img>
+        </div>
         <div className="home2">
           <p className="navButtons">
             Driven and motivated junior fullstack <br />

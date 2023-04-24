@@ -1,16 +1,15 @@
 .allsections {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   background-color: var(--primary-bg);
 }
 
 .mainpage {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   background-color: var(--primary-bg);
 }
+
 .home2 {
   padding: 100px;
   text-align: center;
@@ -22,17 +21,11 @@
   display: flex;
   justify-content: space-between;
   background-color: var(--secondary-bg);
+  width: 100%;
 }
+
 .navbar {
   background-color: var(--secondary-bg);
-}
-@media (max-width: 896px) {
-  .mainnavbar {
-    display: flex;
-  }
-  .navbar {
-    width: 300vw;
-  }
 }
 
 .navButtons {
@@ -40,18 +33,15 @@
   padding: 3px;
   text-decoration: none;
 }
+
 .navButtons:hover {
   color: var(--primary-button);
   /* background-color: lightpink; */
 }
+
 .logo {
   font-size: 2rem;
   font-weight: bold;
-
   color: var(--primary-text);
   text-decoration: none;
 }
-/* .testing {
-  width: 100%;
-  background-color: var(--primary-bg);
-} */
