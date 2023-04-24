@@ -13,13 +13,15 @@ import {
   FaMicrosoft,
   FaGit,
   FaDocker,
+  FaAngular,
+  FaServer,
 } from "react-icons/fa";
 
 import "./Skills.css";
 import Skill from "./Skill";
 
 export default function Skills() {
-  const skills = [
+  const frontendSkills = [
     "HTML",
     "CSS",
     "JavaScript",
@@ -27,6 +29,10 @@ export default function Skills() {
     "Bootstrap",
     "TailwindCSS",
     "Redux",
+    "Angular",
+  ];
+  const backendSkills = [
+    "ExpressJs",
     "Nodejs",
     "MongoDB",
     "SQL",
@@ -34,13 +40,8 @@ export default function Skills() {
     "Git",
     "Docker",
   ];
-  const skillIcons = {
-    Docker: FaDocker,
-    Git: FaGit,
-    Azure: FaMicrosoft,
-    SQL: FaDatabase,
-    MongoDB: FaDatabase,
-    Nodejs: FaNodeJs,
+  const frontendSkillIcons = {
+    Angular: FaAngular,
     Redux: FaDiceD20,
     TailwindCSS: FaWind,
     Bootstrap: FaBootstrap,
@@ -49,6 +50,15 @@ export default function Skills() {
     CSS: FaCss3Alt,
     HTML: FaHtml5,
   };
+  const backendSkillIcons = {
+    Docker: FaDocker,
+    Git: FaGit,
+    Azure: FaMicrosoft,
+    SQL: FaDatabase,
+    MongoDB: FaDatabase,
+    Nodejs: FaNodeJs,
+    ExpressJs: FaServer,
+  };
 
   return (
     <div>
@@ -56,8 +66,17 @@ export default function Skills() {
         <h1>Skills</h1>
         <ul>
           <li className="list">
-            {skills.map((skill, index) => (
-              <Skill key={index} name={skill} icon={skillIcons[skill]} />
+            {frontendSkills.map((skill, index) => (
+              <Skill
+                key={index}
+                name={skill}
+                icon={frontendSkillIcons[skill]}
+              />
+            ))}
+          </li>
+          <li className="list">
+            {backendSkills.map((skill, index) => (
+              <Skill key={index} name={skill} icon={backendSkillIcons[skill]} />
             ))}
           </li>
         </ul>

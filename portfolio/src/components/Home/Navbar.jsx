@@ -4,12 +4,16 @@ import Navbar from "react-bootstrap/Navbar";
 import { Container } from "react-bootstrap";
 import { Nav } from "react-bootstrap";
 
+import { DarkModeSwitch } from "react-toggle-dark-mode";
+
 import "./Home.css";
 
-export default function NavBar() {
+export default function NavBar({ isDarkModeOn, toggleDarkMode }) {
   return (
     <div className="mainnavbar">
-      <h3 className="navButtons">My Portfolio</h3>
+      <Link className="logo" to={"/"}>
+        My Portfolio
+      </Link>
       <Navbar className="navbar" variant="dark">
         <Container>
           <Navbar.Brand href="#home">
@@ -41,6 +45,12 @@ export default function NavBar() {
                 Contact
               </Link>
             </Nav.Link>
+            <DarkModeSwitch
+              style={{ paddingTop: "20px" }}
+              checked={isDarkModeOn}
+              onChange={toggleDarkMode}
+              size={45}
+            />
           </Nav>
         </Container>
       </Navbar>
