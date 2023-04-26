@@ -19,6 +19,7 @@ code {
   --primary-button: lightblue;
   --secondary-bg: rgb(89, 123, 144);
   --secondary-text: white;
+  --secondary-bg1: white;
 }
 
 .dark-mode {
@@ -28,4 +29,5 @@ code {
   --secondary-text: white;
   --primary-text: black;
   --primary-border: #525252;
+  --secondary-bg1: rgb(154, 172, 181);
 }

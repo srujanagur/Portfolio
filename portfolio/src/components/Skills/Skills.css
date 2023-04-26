@@ -12,3 +12,16 @@
 h1 {
   padding: 10px;
 }
+
+@keyframes each-section {
+  from {
+    transform: translateX(50%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+
+.list {
+  animation: each-section 4s infinite;
+}

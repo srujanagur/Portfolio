@@ -42,7 +42,6 @@
 }
 .navButtons:hover {
   color: var(--primary-button);
-  /* background-color: lightpink; */
 }
 .logo {
   font-size: 2rem;
