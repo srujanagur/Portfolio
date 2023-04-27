@@ -23,6 +23,8 @@ function App() {
     "Bootstrap",
     "TailwindCSS",
     "Redux",
+    "Angular",
+    "ExpressJs",
     "Nodejs",
     "MongoDB",
     "SQL",
