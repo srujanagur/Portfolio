@@ -15,23 +15,6 @@ import "./App.css";
 import Skills from "./components/Skills/Skills";
 
 function App() {
-  const skills = [
-    "HTML",
-    "CSS",
-    "JavaScript",
-    "React",
-    "Bootstrap",
-    "TailwindCSS",
-    "Redux",
-    "Angular",
-    "ExpressJs",
-    "Nodejs",
-    "MongoDB",
-    "SQL",
-    "Azure",
-    "Git",
-    "Docker",
-  ];
   const [isDarkModeOn, setIsDarkModeOn] = useState(false);
 
   function toggleDarkMode() {
@@ -46,7 +29,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/education" element={<Education />} />
-          <Route path="/skills" element={<Skills skills={skills} />} />
+          <Route path="/skills" element={<Skills />} />
           <Route path="/footer" element={<Footer />} />
         </Routes>
       </BrowserRouter>
